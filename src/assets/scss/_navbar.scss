@@ -1,0 +1,17 @@
+$navbar-padding-y: 1rem;
+$navbar-padding-x: .5rem;
+
+.navbar {
+    margin: 0;
+    background: $primary;
+}
+
+.navbar>* {
+    padding: 0 $navbar-padding-x;
+}
+
+@include media-breakpoint-down(lg) {
+    .navbar-nav {
+        margin-top: 1rem;
+    }
+}

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300");
+
+$font-family-base: "Roboto", sans-serif;
+$font-family-secondary: "Dancing Script", cursive;
+
+$primary: #F9F9F9;
+$secondary: #0B2447;
+
+$link-color: #FFFFFF;
+$link-hover-color: $secondary;
+
+$body-color: $secondary;
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.container-fluid {
+    position: relative;
+    overflow-x: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container__title {
+    margin-bottom: 5%;
+    font-family: $font-family-secondary;
+    font-size: 4rem;
+}
+
+@import "~font-awesome/css/font-awesome.min.css";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+@import "./assets/scss/navbar";
+
+/** CONTAINERS */
+@import "./assets/scss/banner";
+@import "./assets/scss/about";
+@import "./assets/scss/experience";
+
+@import "~bootstrap/scss/bootstrap";

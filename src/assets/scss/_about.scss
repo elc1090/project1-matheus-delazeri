@@ -1,0 +1,22 @@
+$nav-tabs-link-active-color: $secondary;
+
+.about {
+    height: 100vh;
+}
+
+.about__info {
+    width: 80%;
+    left: 10%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+}
+
+.about__tabContent {
+    padding: .5rem;
+}
+
+.about__tabItem {
+    font-weight: 700;
+}
